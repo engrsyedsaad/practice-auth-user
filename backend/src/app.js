@@ -8,7 +8,7 @@ const app = express()
 
 //CORS Middleware
 app.use(cors({
-    origin: ["http://127.0.0.1:3000", "http://127.0.0.1:3001","https://test2.apmoa.org.pk/register.html","https://test2.apmoa.org.pk/login.html"],
+    origin: ["http://127.0.0.1:3000", "http://127.0.0.1:3001","https://test2.apmoa.org.pk/register.html","https://test2.apmoa.org.pk/index.html"],
     methods: ["GET","POST","PUT","DELETE"],
     credentials: true,
 }))
